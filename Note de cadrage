@@ -1,0 +1,20 @@
+\section{Note de cadrage du projet}
+
+\subsection{Contexte}
+Dans un contexte de forte concurrence en assurance automobile, la maîtrise du risque client
+et l’optimisation de la décision métier constituent des enjeux stratégiques majeurs.
+
+\subsection{Problématique}
+Comment anticiper et gérer les clients à risque en assurance automobile afin de réduire les
+pertes financières et améliorer la prise de décision métier grâce à l’intelligence artificielle ?
+
+\subsection{Objectifs}
+\begin{itemize}
+    \item Identifier les clients automobiles à risque
+    \item Mettre en place un scoring décisionnel
+    \item Fournir un outil d’aide à la décision interactif
+\end{itemize}
+
+\subsection{Périmètre}
+Le projet se concentre sur l’analyse des contrats d’assurance automobile à partir des données
+contractuelles et financières disponibles.
