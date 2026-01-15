@@ -41,27 +41,76 @@ Il vise à démontrer comment l’intelligence artificielle, combinée à l’an
 ### Architecture du projet
 
 DXC_DCG2026/
+################################
+# Architecture détectée de base#
+################################
+
+hackathon_dashboard/
 │
-├── app.py                       # Application Streamlit principale
+├── app.py                          # Application principale
+├── requirements.txt                # Dépendances
 │
 ├── modules/
-│   ├── data_prep_engine.py      # Nettoyage & feature engineering
-│   ├── nlp_engine.py            # Moteur NLP (ChatGPT + fallback)
-│   ├── llm_client.py            # Client OpenAI / ChatGPT
-│   ├── predictive_engine.py     # Modèles prédictifs & scoring
-│   ├── insight_engine.py        # Génération d’insights & rapports
-│   └── indicators_config.py     # Référentiel des indicateurs métier
+│   ├── nlp_engine.py              # Moteur NLQ
+│   ├── data_prep_engine.py        # Préparation des données
+│   ├── predictive_engine.py       # Modèles de prédiction
+│   └── insight_engine.py          # Génération d'insights
 │
 ├── data/
-│   ├── Data_set_Hackathon.xlsx
-│   └── Data_set_Hackathon_FINAL_ASSURANCE_AUTO.xlsx
+│   └── sample_policies.csv        # Données exemple
+│
+└── assets/
+    └── style.css                  (optionnel)
+
+################################
+# Architecture jour 1          #
+################################
+
+DXC_DCG2026/
+│
+├── app.py                       # Entrée Streamlit (navigation + orchestration)
+├── requirements.txt
+├── README.md                    # Comment lancer + démo + données attendues
+├── .env.example                 # Exemple variables d’environnement (PAS de clé dedans)
+│
+│
+├── Archive/                     # Pour la documentation des traveaux
+│    ├── architecture_project.txt/
+│
+│
+├── data/
+│   ├── raw/                     # Données brutes uploadées (optionnel)
+│   ├── processed/               # Données préparées (export)
+│   ├── Data_set_Hackathon_FINAL_ASSURANCE_AUTO.xlsx
+│   └── Data_set_Hackathon_FINAL_ASSURANCE_AUTO_SIMULE.xlsx
 │
 ├── assets/
-│   ├── style.css                # Design & thème
-│   └── logo.png                 # Logo du projet
+│   ├── style.css                # Thème (Arial Black, bleu, etc.)
+│   ├── logo.png                 # Ton logo (local)
+│   └── icon.png                 # Petit favicon/icone (optionnel)
 │
-├── README.md                    # Documentation du projet
-└── requirements.txt             # Dépendances Python
+├── modules/
+│   ├── __init__.py
+│   ├── indicators_config.py     # Référentiel indicateurs + variables (métadonnées)
+│   ├── llm_client.py            # User OpenAI (API key via env) (on va un peu revoir cette partie)
+│   ├── nlp_engine.py            # NLP: LLM + fallback regex + JSON strict (on a choisit CHATGPT comme moteur de recherche)
+│   ├── data_prep_engine.py      # Préparation, cleaning et exportation vers autres fénêtres
+│   ├── predictive_engine.py     # RF/Logistic (safe), train/evaluate/predict (Ici, on aura besoin de votre advice sur le choix des modèles)
+│   ├── insight_engine.py        # Insights + graphes Plotly (si possible, on vera powerBI)
+│   ├── report.py                # Sur la base de l'IA, On veut donner la possibilité à l'user de rédiger directement un rapport (PDF, Docx) ou de façon automatique
+│   ├── validators.py            # (optionnel) contrôle schéma colonnes/types
+│   └── ui_components.py         # (optionnel) composants UI réutilisables
+│
+│
+├── .env                         # Contenant le API key
+│
+├── Dockerfile/                  # Permettant de deployer l'Appli
+│
+└── notebooks/                   # (optionnel) explorations EDA (hors app)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+NB : Nous comptons mettre des sous parties dans le modules insight_engine.py (en analyse (+ tests) univariées, multivariée, multidimentionnelle) %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ### Données utilisées
 
