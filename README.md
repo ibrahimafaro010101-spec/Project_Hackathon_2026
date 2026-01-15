@@ -2,43 +2,44 @@
 *DXC DCG HACKATHON PROJECT 2026*
 
 
-🚗🤖 RenewAI – Intelligent Insurance Analytics Platform
-📌 Contexte du projet
+### RenewAI – Intelligent Insurance Analytics Platform
+#### Contexte du projet
 
 Ce projet a été développé dans le cadre du Hackathon DXC – Intelligent Analytics.
 Il vise à démontrer comment l’intelligence artificielle, combinée à l’analyse de données métier, peut améliorer la gestion des risques, la prise de décision et la performance économique dans le secteur de l’assurance automobile.
 
-🎯 Objectif du projet
+### Objectif du projet
 
-Problématique centrale :
+###### Problématique centrale :
 
-Comment anticiper et gérer les clients à risque afin de réduire les pertes et améliorer la décision métier grâce à l’IA ?
+*Comment anticiper et gérer les clients à risque afin de réduire les pertes et améliorer la décision métier grâce à l’IA ?*
 
-Objectifs opérationnels
+###### Objectifs opérationnels
 
-Identifier les clients à risque de résiliation ou de sinistralité élevée
+* Identifier les clients à risque de résiliation ou de sinistralité élevée
 
-Automatiser l’analyse des données d’assurance
+* Automatiser l’analyse des données d’assurance
 
-Fournir des insights métier exploitables
+* Fournir des insights métier exploitables
 
-Offrir un assistant intelligent en langage naturel pour les décideurs
+* Offrir un assistant intelligent en langage naturel pour les décideurs
 
-Aider à la prise de décision stratégique (tarification, fidélisation, prévention fraude)
+* Aider à la prise de décision stratégique (tarification, fidélisation, prévention fraude)
 
-🧠 Approche générale
+### Approche générale
 
-Le projet repose sur 4 piliers complémentaires :
+###### Le projet repose sur 4 piliers complémentaires :
 
-Préparation & qualité des données
+*  Préparation & qualité des données
 
-Moteur NLP intelligent (IA / ChatGPT)
+*  Moteur NLP intelligent (IA / ChatGPT)
 
-Modèles prédictifs & scoring client
+*  Modèles prédictifs & scoring client
 
-Dashboard décisionnel interactif
+*  Dashboard décisionnel interactif
 
-🗂️ Architecture du projet
+### Architecture du projet
+
 DXC_DCG2026/
 │
 ├── app.py                       # Application Streamlit principale
@@ -62,7 +63,7 @@ DXC_DCG2026/
 ├── README.md                    # Documentation du projet
 └── requirements.txt             # Dépendances Python
 
-📊 Données utilisées
+### Données utilisées
 
 Le jeu de données représente des contrats d’assurance automobile avec :
 
@@ -88,7 +89,7 @@ indicateurs financiers
 
 variables explicatives pour les modèles IA
 
-📈 Indicateurs métier intégrés
+### Indicateurs métier intégrés
 🔴 Risque & sinistralité
 
 Fréquence de sinistre
@@ -154,13 +155,13 @@ Exemple de requêtes
 • Détecte-t-on un risque de fraude ?
 
 
-👉 Le moteur fonctionne :
+### Le moteur fonctionne :
 
 avec ChatGPT (mode principal)
 
 avec un fallback regex (mode sécurisé hackathon)
 
-📉 Modélisation & scoring
+### Modélisation & scoring
 
 Modèles utilisés :
 
@@ -168,13 +169,13 @@ Régression logistique
 
 Random Forest
 
-Variables cibles possibles :
+###### Variables cibles possibles :
 
 renouvellement
 
 risque de résiliation
 
-Sorties :
+###### Sorties :
 
 Probabilité de risque
 
@@ -182,7 +183,7 @@ Score client normalisé
 
 Interprétation métier
 
-📊 Dashboard décisionnel
+### Dashboard décisionnel
 
 Le dashboard Streamlit propose :
 
@@ -198,7 +199,7 @@ Qualité des données
 
 Assistant IA interactif
 
-🧪 Robustesse & sécurité
+ Robustesse & sécurité
 
 Fonctionnement possible sans API OpenAI
 
@@ -208,17 +209,17 @@ Architecture modulaire et extensible
 
 Séparation claire Data / IA / UI
 
-🚀 Installation & exécution
-1️⃣ Installation des dépendances
+### Installation & exécution
+### Installation des dépendances
 pip install -r requirements.txt
 
-2️⃣ Lancer l’application
+### Lancer l’application
 streamlit run app.py
 
-3️⃣ (Optionnel) Activer ChatGPT
+### (Optionnel) Activer ChatGPT
 export OPENAI_API_KEY="votre_cle_api"
 
-👥 Équipe projet (Hackathon)
+### Équipe projet (Hackathon)
 
 Data & Feature Engineering
 
@@ -230,7 +231,7 @@ Dashboard & Business
 
 Organisation inspirée d’une équipe produit data professionnelle
 
-🏁 Conclusion
+### Conclusion
 
 RenewAI démontre comment l’IA peut transformer les données d’assurance en décisions intelligentes, rapides et explicables, au service :
 
