@@ -54,9 +54,8 @@ En Afrique, ces enjeux sont encore plus critiques. Le continent affiche le taux 
 
 ## Objectif global
 
-L’assurance automobile constitue aujourd’hui l’un des segments les plus stratégiques et les plus exposés au risque pour les compagnies d’assurance. La multiplication des sinistres, l’évolution des comportements des assurés et l’intensification de la concurrence rendent la gestion du portefeuille clients de plus en plus complexe. Dans ce contexte, les méthodes traditionnelles d’analyse, souvent statiques et réactives, montrent leurs limites.
-
-Le présent projet vise à exploiter le potentiel de l’intelligence artificielle et de l’analyse avancée des données afin de transformer la manière dont les assureurs identifient, évaluent et gèrent les risques liés à leurs clients. L’objectif est de passer d’une logique de gestion a posteriori à une approche prédictive, proactive et orientée décision métier.
+L’assurance automobile constitue aujourd'hui un segment stratégique mais fortement exposé au risque pour les assureurs. La hausse des sinistres, l’évolution des comportements des assurés et l'intensification de la concurrence rendent la gestion du portefeuille plus complexe, tandis que les approches traditionnelles restent souvent descriptives et réactives.
+Ce projet vise donc à mobiliser l’IA et l’analyse avancée des données pour transformer l’identification et la gestion des clients à risque, en passant d’une logique a posteriori à une approche prédictive, proactive et orientée décision métier.
 
 ## Problématique centrale
 
