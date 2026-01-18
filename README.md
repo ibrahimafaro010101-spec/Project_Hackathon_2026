@@ -59,7 +59,7 @@ Ce projet vise donc à mobiliser l’IA et l’analyse avancée des données pou
 
 ## Problématique centrale
 
-Nous formulons la problématique centrale comme suit :
+Ainsi, afin d’opérationnaliser cet objectif et de cadrer précisément la contribution du projet, nous formulons la problématique centrale comme suit :
 > **Comment anticiper et gérer efficacement les clients à risque dans l’assurance automobile afin de réduire les pertes financières et d’améliorer la qualité de la décision métier grâce à l’intelligence artificielle ?**
 
 Cette problématique est au cœur des enjeux actuels du secteur de l’assurance, où la performance dépend de plus en plus de la capacité à anticiper les comportements futurs des assurés plutôt que de simplement constater les événements passés. Cette problématique s’inscrit dans un contexte marqué par :
@@ -73,9 +73,9 @@ Cette problématique est au cœur des enjeux actuels du secteur de l’assurance
 
 L’ambition qui nous anime est de renforcer la capacité décisionnelle des acteurs de l’assurance automobile, en leur fournissant des outils capables de détecter les signaux faibles, d’anticiper les risques et d’orienter les stratégies de tarification, de fidélisation et de prévention.
 
-En mettant en place cette application, nous pourons présenter le produit à des assurance tout en mettant en avant les ajouts qu'on fait par rapport à la méthode classique.
+La mise en place cette application, pourrait nous permettre présenter le produit à des assurances tout en mettant en avant les ajouts qu'on fait par rapport à la méthode classique.
 
-Nous aspirons à mettre à la disposition des utilisateurs interface facile, simple, automatisé et basé sur de l'intélligence spécialement entrainé dans le domaine.
+Nous aspirons ainsi à mettre à la disposition des utilisateurs une interface facile, simple, automatisé et basé sur de l'intélligence, spécialement entrainé dans le domaine.
 
 ## Données d'entrainement
 
