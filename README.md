@@ -262,7 +262,7 @@ Enfin, l’article étend XGBoost à un cadre **multi-paramétrique**, dans lequ
  La régression logistique est un modèle probabiliste destiné à expliquer une variable binaire 𝑌∈{0,1} à partir de variables explicatives 
 𝑋. Elle modélise la probabilité conditionnelle:
 
-$$P(Y=1∣X)= \frac{1}{(1+e−Xβ)}$$​
+$$P(Y=1∣X)= \frac{1}{(1+e^{Xβ})}$$​
 
 Cette formulation repose sur l’hypothèse que le log-odds (logarithme du rapport de probabilités) est une fonction linéaire des variables explicatives :
 
