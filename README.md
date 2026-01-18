@@ -266,7 +266,7 @@ $$P(Y=1∣X)= 1/(1+e−Xβ)$$​
 
 Cette formulation repose sur l’hypothèse que le log-odds (logarithme du rapport de probabilités) est une fonction linéaire des variables explicatives :
 
-$$log(P(Y=1∣X)/ (1−P(Y=1∣X)​))=Xβ$$
+$$\frac{log(P(Y=1∣X)}{(1−P(Y=1∣X)​))}=Xβ$$
 
 ## Timeline du projet
 
