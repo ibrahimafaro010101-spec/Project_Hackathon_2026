@@ -316,7 +316,12 @@ Ainsi, tout ce qui est fait, reste en local et ceci permet de gérer le côté "
 
 ---
 ## Références
-
 [1](https://www.narsa.ma/sites/default/files/2024-11/Rapport%20de%20la%20SR%202022%20V5_231020_140005_compressed.pdf%7D$) NARSA. *Rapport annuel 2022 sur la sécurité routière au Maroc*. Observatoire National de la Sécurité Routière.
+
+[2](https://proceedings.mlr.press/v32/denil14.pdf) Misha Denil & al, Narrowing the Gap: Random Forests In Theory and In Practice
+
+[3](https://arxiv.org/abs/2109.07473) Yang Guang, Generalized XGBoost Method, 2022
+
+[4](https://books.google.co.ma/books?hl=fr&lr=&id=bRoxQBIZRd4C&oi=fnd&pg=PR13&dq=Hosmer,+Lemeshow+%26+Sturdivant(2013),+Applied+Logistic+Regression,+Wiley&ots=kM6SxpcSjb&sig=xreANOrsf7yA4bD7EkSMCblAMPg&redir_esc=y#v=onepage&q=Hosmer%2C%20Lemeshow%20%26%20Sturdivant%20(2013)%2C%20Applied%20Logistic%20Regression%2C%20Wiley&f=false) Hosmer, Lemeshow & Sturdivant (2013), Applied Logistic Regression, Wiley
 
 Hosmer, Lemeshow & Sturdivant (2013), Applied Logistic Regression, Wiley  [4](https://books.google.co.ma/books?hl=fr&lr=&id=bRoxQBIZRd4C&oi=fnd&pg=PR13&dq=Hosmer,+Lemeshow+%26+Sturdivant(2013),+Applied+Logistic+Regression,+Wiley&ots=kM6SxpcSjb&sig=xreANOrsf7yA4bD7EkSMCblAMPg&redir_esc=y#v=onepage&q=Hosmer%2C%20Lemeshow%20%26%20Sturdivant%20(2013)%2C%20Applied%20Logistic%20Regression%2C%20Wiley&f=false)
