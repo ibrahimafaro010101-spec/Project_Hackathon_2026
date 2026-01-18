@@ -138,18 +138,21 @@ et d’autres complémentaires pour le traitement de données intélligent, etc.
 
 ### Préparation & qualité des données
 
-La préparation et la qualité des données constituent le premier pilier du projet, car elles conditionnent directement la fiabilité des analyses, des insights et des modèles prédictifs. Dans le secteur de l’assurance automobile, les données sont souvent hétérogènes, issues de plusieurs processus métier (facturation, contrats, renouvellement) et peuvent contenir des incohérences ou des valeurs manquantes.
+Le module de traitement des données représente le cœur analytique de la plateforme dédiée au secteur de l'assurance. Son architecture est conçue pour transformer des données brutes en informations structurées et actionnables via une méthodologie scientifique rigoureuse. Le système vérifie systématiquement la présence de données avant d'autoriser l'accès aux fonctionnalités, garantissant ainsi l'intégrité des opérations. Il priorise l'utilisation de données déjà traitées, tout en conservant la capacité de travailler sur les données originales, assurant ainsi une flexibilité optimale dans le flux de travail.
 
-Cette étape vise d’abord à structurer et fiabiliser les données brutes, en assurant :
+L'initialisation repose sur un moteur de traitement scientifique, la classe `DataProcessingEngine`, dont l'état est persisté tout au long de la session utilisateur. Cette approche maintient la cohérence du contexte analytique et optimise les performances en évitant les réinitialisations inutiles. L'ensemble des fonctionnalités est organisé en quatre phases distinctes accessibles via une interface onglets, offrant une progression logique du traitement.
 
-*   le nettoyage des valeurs manquantes ou aberrantes ;
-*   la mise en cohérence des formats, notamment pour les dates et les montants ;
-*   la vérification de la complétude et de la validité des informations contractuelles.
+La première phase, l'analyse scientifique, déploie une batterie de tests statistiques avancés pour caractériser automatiquement la nature des données. Elle identifie les types de variables, évalue les distributions via des tests de normalité comme Shapiro-Wilk et Anderson-Darling, et génère une métrologie complète incluant des indicateurs de qualité et de complétude. Chaque variable bénéficie d'un profil statistique détaillé qui en présente les caractéristiques fondamentales.
 
-Ensuite, un travail d’ingénierie des variables est réalisé afin de transformer les données brutes en indicateurs exploitables pour l’analyse et la décision. Cela inclut notamment la construction de variables telles que la durée de couverture, la prime par jour, la prime annualisée, l’ancienneté du contrat ou du client, ainsi que des indicateurs liés aux événements contractuels.
+La seconde phase concerne le prétraitement intelligent, offrant trois stratégies adaptatives : une approche conservative qui privilégie l'intégrité des données originales, une stratégie équilibrée recherchant un compromis optimal, et une méthode aggressive orientée vers la préparation pour le machine learning. Ce traitement inclut la gestion des valeurs manquantes, la détection d'anomalies et la normalisation adaptative, le tout avec un système de préservation des types de données assurant la cohérence sémantique.
 
-L’objectif de ce pilier est de passer d’une base de données purement descriptive à une base orientée décision, capable d’alimenter efficacement le moteur NLQ, le module d’Insight AI et les modèles prédictifs. Une donnée bien préparée permet non seulement d’améliorer la performance des modèles, mais aussi de garantir la cohérence, la traçabilité et la crédibilité des résultats présentés aux décideurs.
+La troisième phase se concentre sur la détection automatique de variables cibles, combinant analyse sémantique et critères statistiques. Le moteur examine la terminologie des colonnes, évalue la cardinalité et l'équilibre des distributions, et filtre les variables peu adaptées à la modélisation. Des recommandations personnalisées et des visualisations adaptées sont générées pour guider la sélection.
 
+La quatrième phase propose une exploration statistique complète avec un haut degré de personnalisation. Les utilisateurs peuvent filtrer, trier et explorer les données via des statistiques détaillées et des visualisations interactives adaptées à chaque type de variable. Les fonctionnalités d'export permettent de sauvegarder les résultats dans des formats standardisés pour documentation ou intégration externe.
+
+Sur le plan technique, le module dispose d'une gestion d'état sophistiquée qui conserve les résultats intermédiaires entre les étapes de traitement. Son système de gestion d'erreurs fournit des retours utilisateur clairs tout en conservant des informations techniques pour le débogage. L'interface est optimisée pour une navigation intuitive avec des retours visuels immédiats et des indicateurs de progression.
+
+L'ensemble orchestre un pipeline de traitement séquentiel mais flexible, transformant le traitement des données en un processus scientifique guidé. Cette approche méthodique accompagne l'utilisateur depuis l'exploration initiale jusqu'à la préparation pour la modélisation avancée, tout en assurant la traçabilité et la reproductibilité des traitements appliqués, répondant ainsi aux exigences spécifiques du domaine de l'assurance.
 ### NLQ Engine
 
 **Révolutionner l'Accès aux Données pour un Avantage Compétitif**
@@ -173,6 +176,7 @@ Le NLQ Engine est stratégiquement conçu pour transformer la manière dont votr
 Cette capacité unique à intégrer directement vos données et métadonnées assure une flexibilité opérationnelle maximale et une personnalisation sans précédent des requêtes, vous permettant d'adapter précisément l'analyse à vos objectifs business et de découvrir des insights qui garantissent un avantage compétitif durable.
 
 ![Architecture de l'application](NLP.png)
+**_Figure 1: Architecture de l'application_**
 
 **Sécurité et Confidentialité : Un Avantage Compétitif Stratégique avec le NLQ Engine**
 
@@ -230,6 +234,7 @@ L'intégration stratégique des modèles prédictifs n'est plus un avantage, c'e
 ## Timeline du projet
 
 ![Agile Project Plan](plan_agile.png)
+**_Figure 2: Agile Project Plan_**
 
 Notre plan de travail agile, structuré sur un sprint de six jours (du 13 au 19 janvier 2026), est conçu pour garantir la livraison incrémentale d'une solution fonctionnelle à forte valeur métier. Le projet débute par une journée essentielle de cadrage et de fondations, durant laquelle Ibrahima, en tant que chef d'équipe et responsable du moteur NLQ, définit avec l'équipe la vision, l'architecture technique et les interfaces de communication communes, s'assurant que tous les modules pourront dialoguer. Mariam, responsable du moteur d'insights, identifie les indicateurs métier clés et prépare les données, tandis que Babacar, en charge du modèle prédictif, sélectionne l'algorithme de scoring initial. De son côté, Aya élabore les premières maquettes de l'interface utilisateur. Cette phase initiale est cruciale pour aligner l'équipe sur les fonctionnalités « Must » incontournables.
 
@@ -255,6 +260,8 @@ Comme environnement de codage, nous avons choisi *Pycharm Community Edition* 202
 
 ![Quelques packages](package.png)
 
+**_Figure 3: Quelques packages_**
+
 Le module (`numpy`,`pandas`) permet d’expliquer les scores produits par les modèles, d’identifier les variables les plus influentes et de transformer les résultats techniques en recommandations métier claires. L’objectif est de renforcer la confiance des décideurs dans les résultats produits par l’intelligence artificielle.
 
 `Streamlit` a été choisi pour sa simplicité et sa capacité à produire rapidement des interfaces interactives. Les bibliothèques de visualisation permettent de représenter les indicateurs clés, les scores et les résultats des modèles sous forme de graphiques compréhensibles, facilitant ainsi l’interprétation métier des analyses (`plotly`,`seaborn`).
@@ -266,6 +273,7 @@ Pour l'entrainement du moteur de recherche "CHATBOT", nous avons choisi d'utilis
 Ainsi, tout ce qui est fait, reste en local et ceci permet de gérer le côté "sécurité" de l'application.
 
 ![Generation : API key](openai.png)
+**_Figure 4: Generation : API key_**
 
 **Nous vous mettons en Copie une démonstration du fonctionnement de l'application (même si cette dernière n'est pas finaliser encore)**
 
