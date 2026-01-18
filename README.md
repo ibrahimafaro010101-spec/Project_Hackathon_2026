@@ -245,6 +245,7 @@ Cette approche modulaire et méthodique transforme la modélisation prédictive 
 
 L'intégration stratégique des modèles prédictifs n'est plus un avantage, c'est une nécessité impérative pour toute entreprise visant l'excellence opérationnelle et une croissance soutenue. Notre suite d'IA transforme vos données brutes en informations exploitables, vous permettant d'optimiser radicalement l'allocation de vos ressources, d'affiner vos campagnes marketing pour des résultats sans précédent et d'anticiper les risques pour une meilleure atténuation. En offrant une compréhension approfondie des tendances futures, nos solutions garantissent un retour sur investissement (ROI) maximal, réduisent les coûts opérationnels et propulsent l'expérience client vers des sommets inégalés. C'est la clé pour transformer vos données en un avantage concurrentiel durable, stimuler une croissance exponentielle et asseoir votre leadership sur le marché.
 On a intégré plusieurs modèles dans l'application, cela permet à l'utilisateur d'avoir un large choix pour mieux adapter son étude.
+
 **Le Random Forest**
 
 Le **Random Forest** est un modèle d’apprentissage ensembliste qui consiste à combiner un grand nombre d’arbres de décision construits de manière indépendante et aléatoire afin d’améliorer la qualité des prédictions. Son principe de fonctionnement repose sur l’introduction volontaire de l’aléa à deux niveaux : d’une part, chaque arbre est entraîné sur un échantillon bootstrap des données, et d’autre part, à chaque nœud de l’arbre, seule une sélection aléatoire de variables est considérée pour déterminer le meilleur découpage, généralement en maximisant une réduction d’impureté (comme l’erreur quadratique en régression). Une fois les arbres construits, la prédiction finale est obtenue par agrégation des prédictions individuelles, sous forme de moyenne en régression ou de vote majoritaire en classification. Mathématiquement, la forêt approxime la fonction cible en moyennant les prédictions des arbres, ce qui permet de réduire fortement la variance tout en conservant un biais faible. Cette structure rend le Random Forest particulièrement robuste aux non-linéarités, aux interactions complexes entre variables et au bruit des données, ce qui explique son excellente performance pratique, par exemple pour la prédiction du risque client en assurance, où chaque arbre apprend des règles différentes et la forêt fournit un score final stable et fiable.
@@ -257,12 +258,16 @@ L’article de Yang Guang (Y.Guang, Generalized XGBoost Method, 2022) souligne t
 
 Enfin, l’article étend XGBoost à un cadre **multi-paramétrique**, dans lequel plusieurs paramètres d’une même distribution (par exemple la moyenne et la dispersion) sont estimés simultanément via des arbres distincts mais coordonnés. Cette extension rapproche XGBoost des modèles statistiques distributionnels tout en conservant la flexibilité des méthodes de machine learning, offrant ainsi un cadre puissant pour la modélisation probabiliste et la tarification en assurance.
 
-**CatBoot**
+**La régression logistique**
 
+ La régression logistique est un modèle probabiliste destiné à expliquer une variable binaire 𝑌∈{0,1} à partir de variables explicatives 
+𝑋. Elle modélise la probabilité conditionnelle:
 
+$P(Y=1∣X)= 1/(1+e−Xβ)$​
 
+Cette formulation repose sur l’hypothèse que le log-odds (logarithme du rapport de probabilités) est une fonction linéaire des variables explicatives :
 
-
+$log(P(Y=1∣X)/ (1−P(Y=1∣X)​))=Xβ$
 
 ## Timeline du projet
 
@@ -314,3 +319,5 @@ Ainsi, tout ce qui est fait, reste en local et ceci permet de gérer le côté "
 ## Références
 
 [1](https://www.narsa.ma/sites/default/files/2024-11/Rapport%20de%20la%20SR%202022%20V5_231020_140005_compressed.pdf%7D$) NARSA. *Rapport annuel 2022 sur la sécurité routière au Maroc*. Observatoire National de la Sécurité Routière.
+
+Hosmer, Lemeshow & Sturdivant (2013), Applied Logistic Regression, Wiley  [4](https://books.google.co.ma/books?hl=fr&lr=&id=bRoxQBIZRd4C&oi=fnd&pg=PR13&dq=Hosmer,+Lemeshow+%26+Sturdivant(2013),+Applied+Logistic+Regression,+Wiley&ots=kM6SxpcSjb&sig=xreANOrsf7yA4bD7EkSMCblAMPg&redir_esc=y#v=onepage&q=Hosmer%2C%20Lemeshow%20%26%20Sturdivant%20(2013)%2C%20Applied%20Logistic%20Regression%2C%20Wiley&f=false)
