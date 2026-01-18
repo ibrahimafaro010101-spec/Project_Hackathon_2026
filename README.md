@@ -268,6 +268,13 @@ Cette formulation repose sur l’hypothèse que le log-odds (logarithme du rappo
 
 $$\frac{log(P(Y=1∣X)}{1−P(Y=1∣X)​)}=Xβ$$
 
+**Gradient boosting**
+Le Gradient Boosting est une méthode d’apprentissage ensembliste qui consiste à construire un modèle prédictif sous la forme d’une somme additive de modèles faibles, généralement des arbres de décision, ajustés de manière séquentielle. Contrairement aux méthodes d’ensembles basées sur l’agrégation indépendante (comme les forêts aléatoires), le Gradient Boosting adopte une logique itérative et constructive : à chaque étape, un nouveau modèle est entraîné pour corriger les erreurs commises par l’ensemble des modèles précédents. Cette approche trouve son fondement théorique dans l’optimisation numérique, le problème d’apprentissage étant formulé comme la minimisation d’une fonction de perte dans l’espace des fonctions.
+
+L’article montre que le Gradient Boosting peut être interprété comme une descente de gradient fonctionnelle, où chaque nouveau modèle est ajusté pour être fortement corrélé au gradient négatif de la fonction de perte évalué sur les données. Lorsque la perte est quadratique, le procédé revient à ajuster successivement les résidus, mais le cadre général permet l’utilisation de fonctions de perte arbitraires adaptées à la régression, la classification ou encore à des distributions spécifiques (Bernoulli, Poisson, survie). Cette flexibilité explique le large succès du Gradient Boosting dans de nombreuses applications empiriques.
+
+Les auteurs soulignent également que la puissance prédictive élevée des Gradient Boosting Machines s’accompagne d’un risque important de sur-apprentissage, en raison de leur capacité à approximer des relations non linéaires complexes. Pour contrôler cette complexité, plusieurs mécanismes de régularisation sont essentiels : la réduction du pas d’apprentissage (shrinkage), le sous-échantillonnage des données (stochastic gradient boosting) et l’arrêt anticipé (early stopping). Bien paramétré, le Gradient Boosting atteint un compromis optimal biais-variance, ce qui en fait l’un des algorithmes les plus performants pour l’analyse prédictive moderne.
+
 ## Timeline du projet
 
 ![Agile Project Plan](plan_agile.png)
