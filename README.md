@@ -36,7 +36,7 @@ El Gargouh Younes & Nadif Firdaouss
 ---
 ## Contexte
 
-Ce projet est mise en place par la Team UM6P dans le cadre du Hackathon DXC – Intelligent Analytics. Il vise à démontrer comment l’intelligence artificielle, combinée à l’analyse de données, peut améliorer la gestion des risques, la prise de décision et la performance économique dans le secteur de l’assurance automobile.
+Ce projet, développé par la Team UM6P dans le cadre du Hackathon DXC “Intelligent Analytics”, s’inscrit dans un mouvement global de transformation des organisations par la donnée et l’intelligence artificielle. Dans de nombreux secteurs, les décideurs doivent gérer des volumes croissants de données, tout en faisant face à une exigence accrue de rapidité, de traçabilité et d’efficacité dans la prise de décision. Cependant, les approches traditionnelles restent souvent descriptives et réactives, et produisent des analyses a posteriori qui mobilisent fortement les équipes techniques. L’analytics intelligent vise au contraire à automatiser la préparation des données, accélérer l’accès à l’information (y compris via des interfaces en langage naturel) et renforcer les décisions grâce à des modèles prédictifs et des recommandations actionnables. Cette dynamique est particulièrement importante dans les activités où l’incertitude, la variabilité des comportements et les arbitrages économiques imposent une gestion proactive du risque et de la performance
 
 ## Justification du choix du secteur de l'Automobile
 
