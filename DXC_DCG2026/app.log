@@ -1,0 +1,287 @@
+2026-01-17 06:22:54,422 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:22:59,814 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:23:00,245 - __main__ - ERROR - Erreur chargement fichier: module 'modules.data_prep_engine' has no attribute 'DataPrepEngine'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 485, in render
+    DataPrepEngine = AppUtils.safe_import("data_prep_engine", "DataPrepEngine")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 138, in safe_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'modules.data_prep_engine' has no attribute 'DataPrepEngine'
+2026-01-17 06:23:10,438 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:23:10,545 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:23:16,435 - __main__ - ERROR - Erreur chargement fichier: module 'modules.data_prep_engine' has no attribute 'DataPrepEngine'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 485, in render
+    DataPrepEngine = AppUtils.safe_import("data_prep_engine", "DataPrepEngine")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 138, in safe_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'modules.data_prep_engine' has no attribute 'DataPrepEngine'
+2026-01-17 06:24:59,264 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:24:59,340 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:24:59,367 - __main__ - ERROR - Erreur chargement fichier: module 'modules.data_prep_engine' has no attribute 'DataPrepEngine'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 485, in render
+    DataPrepEngine = AppUtils.safe_import("data_prep_engine", "DataPrepEngine")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 138, in safe_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'modules.data_prep_engine' has no attribute 'DataPrepEngine'
+2026-01-17 06:30:13,679 - __main__ - WARNING - Classe DataPrepEngine non trouvée dans data_prep_engine
+2026-01-17 06:30:13,717 - __main__ - INFO - Fichier chargé: sunudata.xlsx, 50 lignes
+2026-01-17 06:30:24,663 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:30:24,692 - __main__ - WARNING - Classe DataPrepEngine non trouvée dans data_prep_engine
+2026-01-17 06:30:24,711 - __main__ - INFO - Fichier chargé: sunudata.xlsx, 50 lignes
+2026-01-17 06:30:28,275 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:30:28,366 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:30:28,393 - __main__ - WARNING - Classe DataPrepEngine non trouvée dans data_prep_engine
+2026-01-17 06:30:28,408 - __main__ - INFO - Fichier chargé: sunudata.xlsx, 50 lignes
+2026-01-17 06:30:30,417 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:30:36,410 - __main__ - WARNING - Classe PredictiveEngine non trouvée dans predictive_engine
+2026-01-17 06:30:43,247 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:30:44,572 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:30:46,426 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:30:46,431 - __main__ - WARNING - Classe PredictiveEngine non trouvée dans predictive_engine
+2026-01-17 06:30:47,810 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:30:47,854 - __main__ - CRITICAL - Erreur application: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 1995, in main
+    page_map[page]()
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 1526, in render
+    df = st.session_state.df_final if st.session_state.df_final else st.session_state.df
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2026-01-17 06:30:57,795 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:03,058 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:03,063 - __main__ - WARNING - Classe PredictiveEngine non trouvée dans predictive_engine
+2026-01-17 06:31:04,339 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:05,412 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:10,576 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:14,248 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:14,274 - __main__ - WARNING - Classe DataPrepEngine non trouvée dans data_prep_engine
+2026-01-17 06:31:14,293 - __main__ - INFO - Fichier chargé: sunudata.xlsx, 50 lignes
+2026-01-17 06:31:26,986 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:30,233 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:30,260 - __main__ - ERROR - Erreur nettoyage: 'DataFrame' object has no attribute 'dtype'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 705, in _render_cleaning_tab
+    df_clean = processor.comprehensive_clean(st.session_state.df)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DXC_DCG2026\modules\data_processing_engine.py", line 59, in comprehensive_clean
+    df_clean = self._handle_missing_values(df_clean)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DXC_DCG2026\modules\data_processing_engine.py", line 152, in _handle_missing_values
+    if df_clean[col].dtype in ['int64', 'float64']:
+       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'dtype'. Did you mean: 'dtypes'?
+2026-01-17 06:31:32,625 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:34,362 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:40,466 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:44,799 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:44,800 - __main__ - WARNING - Classe PredictiveEngine non trouvée dans predictive_engine
+2026-01-17 06:31:52,735 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:31:52,739 - __main__ - CRITICAL - Erreur application: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 1995, in main
+    page_map[page]()
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 1526, in render
+    df = st.session_state.df_final if st.session_state.df_final else st.session_state.df
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2026-01-17 06:31:54,576 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:13,471 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:15,192 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:16,506 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:18,040 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:21,827 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:26,222 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:31,941 - __main__ - WARNING - Classe DataPrepEngine non trouvée dans data_prep_engine
+2026-01-17 06:32:35,107 - __main__ - INFO - Fichier chargé: Data_set_Hackathon_FINAL_ASSURANCE_AUTO_SIMULE.xlsx, 26383 lignes
+2026-01-17 06:32:39,306 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:41,637 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:43,323 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:45,184 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:45,204 - __main__ - ERROR - Erreur nettoyage: 'DataFrame' object has no attribute 'dtype'
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 705, in _render_cleaning_tab
+    df_clean = processor.comprehensive_clean(st.session_state.df)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DXC_DCG2026\modules\data_processing_engine.py", line 59, in comprehensive_clean
+    df_clean = self._handle_missing_values(df_clean)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DXC_DCG2026\modules\data_processing_engine.py", line 152, in _handle_missing_values
+    if df_clean[col].dtype in ['int64', 'float64']:
+       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'dtype'. Did you mean: 'dtypes'?
+2026-01-17 06:32:46,521 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:49,547 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:51,222 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:52,539 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:54,088 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:54,094 - __main__ - WARNING - Classe PredictiveEngine non trouvée dans predictive_engine
+2026-01-17 06:32:55,435 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 06:32:55,441 - __main__ - CRITICAL - Erreur application: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 1995, in main
+    page_map[page]()
+  File "C:\Users\HP\Desktop\DXC_DCG2026\app.py", line 1526, in render
+    df = st.session_state.df_final if st.session_state.df_final else st.session_state.df
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2026-01-17 06:32:56,769 - __main__ - INFO - Clé OpenAI API configurée
+2026-01-17 23:57:12,162 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-17 23:59:13,823 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:01:48,099 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:04:09,014 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:07:33,975 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:10:27,637 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:11:07,986 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:11:11,509 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:11:15,800 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:12:51,781 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:12:56,910 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:13:02,094 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:13:07,824 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:13:34,634 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:13:36,635 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:13:42,858 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:13:44,213 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:21:51,859 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:21:59,509 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:22:04,940 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:22:08,549 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:22:10,138 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:22:11,522 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:22:20,262 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:22:29,351 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:22:30,547 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:38:36,544 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:38:42,861 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:38:58,717 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:39:07,153 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:39:08,399 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:39:14,733 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:41:38,814 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:41:42,904 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:41:46,959 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:42:00,671 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:42:01,849 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:49:10,134 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:49:15,179 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 00:49:23,699 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:13:40,854 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:13:48,896 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:13:54,147 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:14:12,175 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:14:14,861 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:14:26,554 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:14:29,099 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:14:37,856 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:14:38,978 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:14:44,574 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:14:45,962 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:14:52,654 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:14:55,164 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:15:04,745 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:29:06,449 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:29:14,628 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:29:20,174 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:29:22,298 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:30:08,170 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:30:12,160 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:30:17,634 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:30:32,513 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:30:43,824 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:31:33,503 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:31:35,257 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:31:42,588 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:31:46,962 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:31:48,286 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:31:57,378 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:32:01,352 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:32:06,024 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:32:06,998 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:33:07,640 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:33:21,372 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:33:28,008 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:34:18,497 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:34:23,678 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:34:40,922 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:35:13,372 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:35:17,681 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:35:19,640 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:35:20,810 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:35:24,155 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:35:34,135 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:35:54,286 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 01:36:13,152 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:10:30,209 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:12:00,123 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:12:52,104 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:13:00,291 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:13:03,677 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:13:11,946 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:13:13,961 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:16:30,251 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:16:35,699 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:16:37,261 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:16:39,707 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:16:41,991 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:16:44,159 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:16:47,092 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:16:49,872 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:16:52,271 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:17:01,336 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:17:17,742 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:17:21,999 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:17:24,466 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:17:25,898 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:17:31,463 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:17:44,427 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:17:47,809 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:17:54,077 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:18:12,922 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:32:09,329 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:32:16,051 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:32:17,934 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:34:22,349 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:34:28,646 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:34:30,190 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:38:31,661 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:38:42,225 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:38:46,997 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:41:02,990 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:41:07,110 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:41:09,914 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:41:17,400 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:41:46,679 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:42:28,724 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:42:34,174 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:42:36,302 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:45:35,783 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:45:41,234 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:45:43,076 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:46:48,076 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:46:50,055 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:46:52,248 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:46:55,635 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:46:58,308 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:47:42,051 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:47:47,788 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
+2026-01-18 02:47:51,384 - dotenv.main - WARNING - python-dotenv could not parse statement starting at line 1
